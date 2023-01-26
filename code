@@ -1,0 +1,43 @@
+Program code:
+
+import java.util.Scanner:
+public class main
+{
+ public staticvoidmain(String args[])
+  {
+   String name;
+   int Name, Subject, Grade, Avg;
+   Name=input("Name of Student: ")
+   Subject=["Eng","Math","Object oriented software","Database System"]
+   System.out.print(Subject grades for:\n Eng \n Math \n Object oriented software\n Database system")
+   System.out.print("Enter Eng marks ").split('')
+   System.out.print("Enter Math marks ").split('')
+   System.out.print("Enter object oriented software marks ").split('')
+   System.out.print("Enter Database system marks ").split('')
+ 
+	if mark>=95:
+	 return('A+','Pass')
+	if mark>=90:
+	 return('A','Pass')
+	if mark>=85:
+	 return('B+','Pass')
+	if mark>=80:
+	 return('B','Pass')
+	if mark>=75:
+	 return('C+','Pass')
+	if mark>=70:
+	 return('C','Pass')
+	if mark>=65:
+	 return('D+','Pass')
+	if mark>=60:
+	 return('D','Pass')
+	if mark>=55:
+	 return('F','Fail')
+
+for i(4):
+avg_mark=(Total(i)4)
+Total+=final[i][1]
+System.out.print("Student Name;{name}\n")
+System.out.print(table(final, Total+, header=["Sub","Marks","Grade","Pass/Fail"]))
+System.out.print({"avg_mark"})
+System.out.print(grade:{"final_grade, Pass/Fail"})
